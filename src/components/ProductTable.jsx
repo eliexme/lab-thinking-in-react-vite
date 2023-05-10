@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ProductRow from './ProductRow'
 
-export default function ProductTable({products}) {
+export default function ProductTable({products, stockOnly}) {
     
   return (
 <table>

@@ -7,8 +7,8 @@ export default function ProductRow({eachProduct}) {
 
   return (
     <tr>
-        {eachProduct.inStock ? (<td style={redStyle}>{eachProduct.name}</td>) 
-        : (<td>{eachProduct.name}</td>)}
+        {eachProduct.inStock ? (<td>{eachProduct.name}</td>) 
+        : (<td  style={redStyle}>{eachProduct.name}</td>)}
         <td>{eachProduct.price}</td>
     </tr>
             
